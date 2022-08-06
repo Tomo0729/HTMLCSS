@@ -15,8 +15,8 @@ header{
 }
 .box{
   width: 300px;
-  height: 330px;
   margin-right: 30px;
+  padding: 10px;
   position: relative;
   background-color: #EEEEEE;
 }
@@ -26,27 +26,20 @@ header{
 h3{
   margin: 15px 0 5px;
 }
-.box1{
+.box-image1{
   height: 150px;
-  padding-top: 150px;
-  margin: 10px;
   background-image: url("img/flow01.png");
   background-size: cover;
   background-position: bottom;
 }
-.box2{
+.box-image2{
   height: 150px;
-  padding-top: 150px;
-  margin: 10px;
   background-image: url("img/flow02.png");
   background-size: cover;
   background-position: bottom;
 }
-.box3{
-
+.box-image3{
  height: 150px;
- padding-top: 150px;
- margin: 10px;
  background-image: url("img/flow03.png");
  background-size: cover;
  background-position: bottom;
@@ -73,5 +66,6 @@ footer{
   .box{
     width: 90%;
     margin-left: 5%;
+    margin-bottom: 20px;
   }
 }
